@@ -1,0 +1,163 @@
+ERROR - 2023-09-16 09:26:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'demo', 3306, '', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#11 {main}
+CRITICAL - 2023-09-16 09:26:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-16 09:27:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(185): mysqli->real_connect(NULL, 'root', '', 'demo', NULL, '/Applications/X...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#11 {main}
+CRITICAL - 2023-09-16 09:27:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-16 09:27:48 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(185): mysqli->real_connect(NULL, 'root', '', 'demo', NULL, '/Applications/X...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#11 {main}
+CRITICAL - 2023-09-16 09:27:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-16 09:32:33 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-16 09:32:33 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')

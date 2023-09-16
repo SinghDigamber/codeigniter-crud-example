@@ -1,0 +1,689 @@
+CRITICAL - 2023-09-15 12:28:10 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-15 12:28:10 --> Uncaught Error: Class "Locale" not found in C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\spark(88): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 12:28:52 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-15 12:28:52 --> Uncaught Error: Class "Locale" not found in C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\spark(88): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 12:34:51 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-15 12:34:51 --> Uncaught Error: Class "Locale" not found in C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Debug\Exceptions.php(147): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#6 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\spark(88): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-15 12:44:03 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-09-15 10:55:02 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 10:55:02 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:35:01 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:35:01 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:40:03 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:40:03 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:40:59 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:40:59 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:41:00 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:41:00 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:41:25 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:41:25 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 12:53:54 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 12:53:54 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 13:04:51 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 13:04:51 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 13:05:16 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-09-15 13:05:16 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 13:05:37 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 13:05:37 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 13:05:38 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 13:05:38 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 14:59:20 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 14:59:20 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:11:30 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 15:11:30 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:12:03 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-09-15 15:12:03 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:14:26 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(27): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-09-15 15:14:26 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(27): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:17:20 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(26): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-09-15 15:17:20 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(26): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:23:11 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#13 {main}
+CRITICAL - 2023-09-15 15:23:11 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`name`, `email`) VALUES (:name:, :email:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserCrud.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+CRITICAL - 2023-09-15 15:29:07 --> Undefined variable $users
+in APPPATH\Views\user_view.php on line 31.
+ 1 APPPATH\Views\user_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\app\\Views\\user_view.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(15): view('user_view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+CRITICAL - 2023-09-15 15:29:07 --> Undefined variable $users
+in APPPATH\Views\user_view.php on line 31.
+ 1 APPPATH\Views\user_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\app\\Views\\user_view.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\app\\Views\\user_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('user_view', [], true)
+ 5 APPPATH\Controllers\UserCrud.php(15): view('user_view')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:29:26 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 15:29:26 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:31:06 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 15:31:06 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:31:08 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 15:31:08 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')
+ERROR - 2023-09-15 15:31:43 --> mysqli_sql_exception: Table 'demo.users' doesn't exist in C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\DELL\Desktop\codeigniter-crud-example\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\DELL\Desktop\codeigniter-crud-example\app\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+#8 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+#9 C:\Users\DELL\Desktop\codeigniter-crud-example\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\DELL\Desktop\codeigniter-crud-example\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\DELL\Desktop\codeigniter-crud-example\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\D...')
+#12 {main}
+CRITICAL - 2023-09-15 15:31:43 --> Table 'demo.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+ORDER BY `id` DESC', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\UserCrud.php(11): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserCrud->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserCrud))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\DELL\\Desktop\\codeigniter-crud-example\\public\\index.php')

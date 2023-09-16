@@ -1,0 +1,6 @@
+parameters:
+  ignoreErrors:
+    -
+      message: "#^Cannot access offset 'header' on array\\<string, mixed\\>\\|bool\\.$#"
+      count: 1
+      path: tests/FactoryTest.php
